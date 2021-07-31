@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 158, 168);
+
+}
+span{
+    color:rgb(255, 35, 35);
+}
+
+
+
+.h{
+    position: absolute;
+    padding: 3px;
+    /* float: left; */
+    margin-left: 35%;
+    margin-top:350px;
+    color:rgb(3, 3, 3);
+}
+.hx{
+
+    position: absolute;
+    padding: 3px;
+    margin-left: 45%;
+    margin-top:310px;
+    color:rgb(3, 3, 3);
+    text-align:center;
+}
+
+
+
+/* a{
+    text-align: center;
+    color: rgb(119, 16, 30);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:hover{
+    color: coral;
+    transition: 0.5s;
+} */
+
+
+.tani
+{
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 50%;
+
+}
+.imge{
+
+    margin-top: 50px;
+    margin-left: 620px;
+    /*
+    height: 300px;
+    width: 200px;  */
+  
+}
+
+.b1{
+
+   
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 30%;
+
+}
+
+.b2{
+
+   
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 45%;
+}
+
+.b3{
+
+   
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 60%;
+}
+
+button{
+   
+    border-radius: 20px;
+    height: 40px;
+    width: 160px;
+    background-color: rgb(180, 25, 25);
+    font-weight: bold;
+}
+
+
+.x-form button[type="submit"]{
+
+	
+	display: block;
+	text-align: center;
+	border:2px solid #fcf6f5;
+    transition: 0.25s;
+
+}
+.x-form button[type="submit"]:hover{
+	
+	opacity: .3;
+    color: rgb(248, 243, 241);
+    transition: 0.5s;
+}

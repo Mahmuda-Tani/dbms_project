@@ -1,0 +1,66 @@
+
+
+
+
+body{
+    /* background-color: rgb(218, 194, 166); */
+}
+.hospital{
+
+    background-color: rgb(232, 246, 247);
+    margin-left: auto;
+    margin-right: auto;
+    /* width:30px; */
+ 
+    
+}
+
+
+.patient{
+
+  
+  background-color: rgb(232, 246, 247);
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+.doctor{
+
+  
+  background-color: rgb(232, 246, 247);
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+.medical_info{
+
+  
+  background-color: rgb(232, 246, 247);
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+.covid_ward{
+
+  
+  background-color: rgb(232, 246, 247);
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+
+
+
+.insert{
+    
+     background-color: rgb(18, 59, 172);
+     display: block;
+     margin: 0 auto;
+}
+td{
+  text-align: center;
+}

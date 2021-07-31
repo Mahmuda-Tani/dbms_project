@@ -1,0 +1,84 @@
+body {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: "Cantora One";
+	box-sizing: border-box;
+}
+
+.contact-form
+{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: black;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+
+}
+.contact-form input[type="password"],.contact-form input[type="email"]
+{
+	border: 0;;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	border:2px solid #000000;
+	width: 200px;
+	height: 40px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+
+}
+.contact-form input[type="text"]:focus,.contact-form input[type="password"]:focus,.contact-form input[type="email"]:focus{
+	width: 220px;
+	border-color: #66CDAA;
+}
+
+.contact-form h2 {
+	text-align:center;
+	margin-bottom: 20px;
+	color: white;
+}
+
+
+
+.contact-form label {
+	color:white;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.contact-form button[type="submit"]{
+
+	
+	display: block;
+	text-align: center;
+	border:2px solid #eae9f1	;
+	outline: none;
+	border-radius: 40px;
+	transition: 0.25s;
+	padding: 7px 8px;
+	margin-left: 70px;
+	background-color: white;
+	width: 70px;
+
+	
+
+}
+.contact-form button[type="submit"]:hover{
+	
+	opacity: .7;
+}
+
+
